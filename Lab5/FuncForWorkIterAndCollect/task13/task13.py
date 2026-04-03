@@ -1,0 +1,1 @@
+print(any(0 in map(int, line.split()) for line in __import__('sys').stdin if line.strip()))
